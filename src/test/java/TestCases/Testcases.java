@@ -10,7 +10,7 @@ import Pages.overviewPage;
 import Pages.productDetailsPage;
 import Pages.productsPage;
 
-public class Testcases extends BaseTest {
+public class Testcases extends BaseTest {       //this is a BaseTest Class
 	@Test
 	public void shopping() {
 		new loginPage(driver).enterUserName("standard_user");
